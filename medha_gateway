@@ -7,7 +7,7 @@
         missingok
         notifempty
         create 644 root root
-        size 10000
+        size 5M
 }
 
 /medha_gateway/Confio_App.log{
@@ -19,5 +19,5 @@
         missingok
         notifempty
         create 644 root root
-        size 10000
+        size 5M
 }
