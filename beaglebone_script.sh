@@ -42,7 +42,7 @@ sudo chmod +x zwave_app*
 sudo chmod +x firmware_update_arm script_failed script_success software_update.sh
 sudo chmod +x $(pwd)/config_change/config
 
-sudo mv -f $(pwd)/iot_frm* zwave_app* app.cfg cmd_class.cfg zwave_device_rec.txt hard_reset_arm cron_job rm_boot_app.sh firmware_update_arm hard_reset_arm script_failed script_success software_update.sh config_change/ /medha_gateway
+sudo mv -f $(pwd)/iot_frm* zwave_app* app.cfg cmd_class.cfg zwave_device_rec.txt hard_reset_arm cron_job rm_boot_app.sh firmware_update_arm hard_reset_arm script_failed script_success software_update.sh version config_change/ /medha_gateway
 
 sudo mv $(pwd)/medha_gateway /etc/logrotate.d/
 sudo chown root:root /etc/logrotate.d/medha_gateway
