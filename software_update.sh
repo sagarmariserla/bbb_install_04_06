@@ -24,7 +24,7 @@ if version_gt $old $val; then
 	echo "old package vresion is $old"
 	echo "New package is available version is $val "
 	sudo $(pwd)/script_success
-	echo "script_sucess responce send sleep 3s"
+	echo "script_success responce send sleep 3s"
 	sleep 3s
 	echo "Now installing the new version Please wait......."
 
